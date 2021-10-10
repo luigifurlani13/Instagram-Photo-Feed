@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    padding-top: 50px;
+}
+.container{
+    background-color: white;
+    width: 55rem;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.boxheader{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+}
+.left div{
+    padding: 0 5px;
+}
+.right {
+    display: flex;
+}
+.numbered{
+    margin: 0%;
+    margin-right: 10px;
+}
+.boxheader i{
+    font-size: 2.5rem;
+}
+.boxcenter{
+    max-width: 300px;
+}
+.controls{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.controls i{
+    font-size: 1.5rem;
+}
+.controls .left i{
+    padding-right: 5px;
+}
+.image {
+    object-fit: contain;
+    width: 55rem;
+}
